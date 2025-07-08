@@ -1,0 +1,9 @@
+.env*
+*.swp
+
+src/*.swp
+public/*.swp
+
+.git/
+dist/
+node_modules/

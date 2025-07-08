@@ -1,0 +1,24 @@
+{
+  "repo": "https://github.com/rhodey/IPFS-boot-react",
+  "name": "IPFS React Starter",
+  "arr": [
+    {
+      "version": "v0.0.1",
+      "timems": 1752008682642,
+      "cid": "bafybeibvil6srdcghdufv5dv2r6iaeqpmjox24ljui7zdsum3nybyhtudm",
+      "notes": "A pretty react + vite demo v1"
+    },
+    {
+      "version": "v0.0.2",
+      "timems": 1752008705995,
+      "cid": "bafybeiedcv45axu2dyya3pn6vqlj5trggtmbt7rrysk4ddtn5pwbps7wz4",
+      "notes": "IPFS react starter v2 now with duck!!"
+    },
+    {
+      "version": "v0.0.3",
+      "timems": 1752008731704,
+      "cid": "bafybeicehgi6xn6cqliespiubj4oqjyf5oyyyrnrmijr4xxicgupvqcog4",
+      "notes": "Version 3 is here to make the list longer"
+    }
+  ]
+}
