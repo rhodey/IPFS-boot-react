@@ -24,7 +24,7 @@ docker run --rm -i --platform=linux/amd64 -v ./dist:/root/dist ipfs-boot-react
 cp ../IPFS-boot/.env .
 CID=$(docker run --rm -i --platform=linux/amd64 -v ./dist:/root/dist --env-file .env ipfs-pin | grep CIDv1 | cut -c9-)
 npx ipfs-boot init https://github.com/user/react123 react123
-npx ipfs-boot publish --cid $CID --version v0.0.1 --notes "my notes"
+npx ipfs-boot publish --cid $CID --version v0.0.1 --notes "release notes"
 cat versions.json
 ```
 
@@ -32,7 +32,7 @@ If you have [just](https://github.com/casey/just) command runner
 ```
 cp ../IPFS-boot/.env .
 npx ipfs-boot init https://github.com/user/react123 react123
-just publish v0.0.1 "my notes"
+just publish v0.0.1 "release notes"
 cat versions.json
 ```
 
