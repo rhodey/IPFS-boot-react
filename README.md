@@ -46,7 +46,7 @@ npm run dev
 ```
 
 ## Demo
-Please if you want to style the [default bootloader](https://github.com/rhodey/IPFS-boot), open a PR ^.^
+Please if you want to style the [bootloader](https://github.com/rhodey/IPFS-boot), open a PR ^.^
 + ipfs://bafybeicalfyyfcmhrkv66fczkkwikql3rlnsu6nc76h3nipujkgqa73k54
 + https://bafybeicalfyyfcmhrkv66fczkkwikql3rlnsu6nc76h3nipujkgqa73k54.ipfs.dweb.link
 
