@@ -7,11 +7,6 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-  // this is only for demonstration
-  let version = 3
-  const duck = version === 1 ? '' : (<h1><Link to="/duck">Duck</Link></h1>)
-  version = `v${version}`
-
   return (
     <>
       <div>
@@ -22,8 +17,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React ({version})</h1>
-      {duck}
+      <h1>Vite + React (v4)</h1>
+      <h1><Link to="/duck">Duck</Link></h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}

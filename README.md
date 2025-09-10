@@ -15,6 +15,8 @@ The aim is reproducible builds so docker is involved
 ```
 docker buildx build --platform=linux/amd64 -t ipfs-boot-react .
 docker run --rm -i --platform=linux/amd64 -v ./dist:/root/dist ipfs-boot-react
+> CIDv0 = QmfSBsx4DW4sNc9S6an9ujiyv3fBHK2fYTG1rzw5ScScCf
+> CIDv1 = bafybeih6ahjvidh6r7se5asm2zf53kkpqrhj5phw2mfcx7jdz4uoozj5ja
 ```
 
 ## Pin
