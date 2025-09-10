@@ -8,13 +8,14 @@ This is a standard react project created using:
 npm create vite@latest ipfs-boot-react -- --template react
 ```
 
-What differs is [main.jsx](https://github.com/rhodey/IPFS-boot-react/blob/master/src/main.jsx) knows to unmount and [package.json](https://github.com/rhodey/IPFS-boot-react/blob/master/package.json) has updated build targets
+What differs is [main.jsx](/src/main.jsx) knows to unmount and [package.json](/package.json) has updated build targets
 
 ## Build
 The aim is reproducible builds so docker is involved
 ```
 docker buildx build --platform=linux/amd64 -t ipfs-boot-react .
 docker run --rm -i --platform=linux/amd64 -v ./dist:/root/dist ipfs-boot-react
+> CIDv1 = bafybeih6ahjvidh6r7se5asm2zf53kkpqrhj5phw2mfcx7jdz4uoozj5ja
 ```
 
 ## Pin
@@ -46,9 +47,9 @@ npm run dev
 ```
 
 ## Demo
-Please if you want to style the [bootloader](https://github.com/rhodey/IPFS-boot), open a PR ^.^
-+ ipfs://bafybeicalfyyfcmhrkv66fczkkwikql3rlnsu6nc76h3nipujkgqa73k54
-+ https://bafybeicalfyyfcmhrkv66fczkkwikql3rlnsu6nc76h3nipujkgqa73k54.ipfs.dweb.link
+These CIDs are IPFS-boot, when selecting an app version you will see CIDv1 from above
++ ipfs://bafybeifehbm2um54qvfifprtbkgbt25ndkq6k26zjlbe33t2j62gdjwn2m
++ https://bafybeifehbm2um54qvfifprtbkgbt25ndkq6k26zjlbe33t2j62gdjwn2m.ipfs.dweb.link
 
 ## License
-MIT - Copyright 2025 - mike@rhodey.org
+MIT

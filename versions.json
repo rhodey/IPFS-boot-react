@@ -19,6 +19,12 @@
       "timems": 1752008731704,
       "cid": "bafybeicehgi6xn6cqliespiubj4oqjyf5oyyyrnrmijr4xxicgupvqcog4",
       "notes": "Version 3 is here to make the list longer"
+    },
+    {
+      "version": "v0.0.4",
+      "timems": 1757535277200,
+      "cid": "bafybeih6ahjvidh6r7se5asm2zf53kkpqrhj5phw2mfcx7jdz4uoozj5ja",
+      "notes": "Version 4 = small changes to code for better docs"
     }
   ]
 }
