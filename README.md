@@ -5,7 +5,7 @@ IPFS-boot React.js starter, see:
 
 ## History
 
-This is a standard react project created using:
+This is a standard React.js project created using:
 
 ```
 npm create vite@latest ipfs-boot-react -- --template react
