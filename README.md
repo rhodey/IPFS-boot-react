@@ -29,14 +29,6 @@ npx ipfs-boot publish --cid $CID --version v0.0.1 --notes "release notes"
 cat versions.json
 ```
 
-If you have [just](https://github.com/casey/just) command runner
-```
-cp ../IPFS-boot/.env .
-npx ipfs-boot init https://github.com/user/react123 react123
-just publish v0.0.1 "release notes"
-cat versions.json
-```
-
 All that remains is send versions.json to your https server, where the bootloader looks (needs CORS), remember dist/ (your app) is at this point now with IPFS
 
 ## Dev
