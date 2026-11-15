@@ -20,7 +20,7 @@ npm ci
 npm run build
 ```
 
-## Pin
+## Publish
 
 + Follow [Pin docs](https://github.com/rhodey/IPFS-boot#pin) in the parent repo
 + You will get container ipfs-pin and .env
