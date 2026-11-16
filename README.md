@@ -51,8 +51,8 @@ npm run dev
 
 These CIDs are IPFS-boot, when selecting an app version you will see CIDv1 from above.
 
-+ ipfs://bafybeihq2h235llbpc5aaityfacxszl2oxujvyw2zwhdrbvfoi6ytynuty
-+ https://bafybeihq2h235llbpc5aaityfacxszl2oxujvyw2zwhdrbvfoi6ytynuty.ipfs.dweb.link
++ ipfs://bafybeidquva2qhtucrhvohmu5deggqxokqvdgbpv5voza5ghd3pjeyixsm
++ https://bafybeidquva2qhtucrhvohmu5deggqxokqvdgbpv5voza5ghd3pjeyixsm.ipfs.dweb.link
 
 ## License
 
